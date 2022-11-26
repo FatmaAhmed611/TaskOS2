@@ -12,7 +12,6 @@ jobs:
 
 
     steps:
-      - name: 'Testing github'
-        run: pwd
-      - name: 'testing'
-        run: echo fatma
+      - name: 'Print'
+        run: ls
+      
