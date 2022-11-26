@@ -12,6 +12,10 @@ jobs:
 
 
     steps:
-      - name: 'Print'
+      - name: 'Print befor'
         run: ls
+
+      - uses: actions/checkout@v3 
+      - name: 'Print after'
+        run: ls 
       
